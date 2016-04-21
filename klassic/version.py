@@ -1,0 +1,7 @@
+"""klassic versioning"""
+
+MAJOR_VERSION = 0
+MINOR_VESRION = 1
+RELEASE_BUILD = "a"
+
+VERSION = "%r.%r%r" % (MAJOR_VERSION, MINOR_VESRION, RELEASE_BUILD)
